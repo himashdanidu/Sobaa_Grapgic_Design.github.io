@@ -1,0 +1,611 @@
+<!DOCTYPE HTML>
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Sobaa Graphic Designer </title>
+    <style>
+        :root {
+            --primary: #ff7a00;
+            --dark: #222;
+            --light: #f9f9f9;
+        }
+        * {box-sizing: border-box;margin:0;padding:0}
+        body {font-family: 'Poppins', sans-serif;line-height:1.6;color:var(--dark);}
+
+        /* Navbar */
+        header {
+            position: sticky;top:0;z-index:999;
+            background:#fff;
+            box-shadow:0 2px 8px rgba(0,0,0,0.1);
+        }
+        .navbar {
+            max-width:1200px;margin:auto;
+            display:flex;justify-content:space-between;align-items:center;
+            padding:16px 24px;
+        }
+        .navbar h1 {font-size:22px;color:var(--primary);}
+        .nav-links {display:flex;gap:20px;}
+        .nav-links a {
+            text-decoration:none;color:#333;font-weight:600;
+            transition:.3s;
+        }
+        .nav-links a:hover {color:var(--primary);}
+
+        /* Hero */
+        .hero {
+            display:flex;flex-wrap:wrap;
+            align-items:center;justify-content:space-between;
+            max-width:1200px;margin:50px auto;padding:0 24px;
+        }
+        .hero-text {flex:1;min-width:300px;}
+        .hero-text h2 {font-size:42px;margin-bottom:16px;}
+        .hero-text p {font-size:18px;color:#555;margin-bottom:20px;}
+        .hero-text a {
+            background:var(--primary);color:#fff;padding:12px 24px;
+            border-radius:30px;text-decoration:none;font-weight:600;
+        }
+        .hero-img {flex:1;min-width:300px;text-align:center;}
+        .hero-img img {max-width:100%;border-radius:12px;}
+
+        /* Sections */
+        section {padding:80px 24px;max-width:1200px;margin:auto;}
+        section h2 {font-size:32px;text-align:center;margin-bottom:40px;color:var(--primary);}
+
+        /* About */
+        .about p {max-width:800px;margin:auto;text-align:center;font-size:18px;color:#555;}
+
+        /* Works */
+        .works-grid {
+            display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+            gap:24px;
+        }
+        .work-card {
+            background:#fff;border-radius:10px;overflow:hidden;
+            box-shadow:0 4px 12px rgba(0,0,0,0.08);
+            transition:.3s;
+        }
+        .work-card:hover {transform:translateY(-6px);}
+        .work-card img {width:100%;display:block;}
+        .work-card h3 {padding:16px;}
+
+        /* Contact */
+        .contact-info {text-align:center;font-size:18px;color:#555;}
+        .contact-info a {color:var(--primary);text-decoration:none;font-weight:600;}
+
+        /* Footer */
+        footer {background:#111;color:#eee;text-align:center;padding:20px;}
+
+        /* Responsive */
+        @media(max-width:768px){
+            .hero{flex-direction:column;}
+            .hero-text h2{font-size:32px;}
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header>
+        <div class="navbar">
+            <h1>Sobaa Graphic designer</h1>
+            <nav class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#works">Works</a>
+                <a href="#contact">Contact</a>
+                <a href="    ">Log In</a>
+
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero -->
+
+<center>  <img src= "portfolio.html/SOBAA-Recovered.jpg" 1" width="1920" height="1080" alt="">   </center>
+
+<section class="hero" id="home">
+        <div class="hero-text">
+            <h2>Professional <span style="color:var(--primary)">Graphic Designer</span></h2>
+            <p><b>A graphic designer is a practitioner who follows the discipline of graphic design, either within companies or organizations or independently. They are professionals in design and visual communication, with their primary focus on transforming linguistic messages into graphic manifestations, whether tangible or intangible. They are responsible for planning, designing, projecting, and conveying messages or ideas through visual communication. Graphic design is one of the most in-demand professions with significant job opportunities, as it allows leveraging technological advancements and working online from anywhere in the world</b>.</p>
+            <a href="#contact">Hire Me</a>
+        </div>
+        <div class="hero-img">
+            <img src= "portfolio.html/ghgfh.jpg" photo" width="300" height="300" alt="">
+        </div>
+    </section>
+
+<!-- About -->
+    <section class="about" id="about">
+        <h2><b>About Me</b></h2>
+        <p>
+            I'm a passionate Graphic Designer with experience in branding, logo design,
+            social media content, and creative illustrations. I focus on delivering
+            professional and creative designs that make businesses stand out.
+        </p>
+</section>
+
+<!-- ABOUT SECTION -->
+<section id="about" class="about-section">
+    <div class="container">
+        <!-- Headings -->
+        <h1 class="main-title">SOBAA GRAPHIC DESGN</h1>
+        <h2 class="sub-title"><b>About Us</b></h2>
+
+        <!-- Intro text -->
+        <p class="intro">
+            <b><b>At SOBAA GRAPHIC DESGN we create clean, effective, and custom design solutions that help
+            brands communicate clearly and stand out. From concept to final files, we focus on clarity,
+            craft, and speed.</b></b>
+        </p>
+
+        <!-- Services Grid -->
+        <div class="services-grid">
+            <div class="service-card"><b>1</b><b>.</b> <b><b>Logo design</b> &amp;<b><b> brand identity</b></b></b></div>
+            <div class="service-card"><b><b>2. Social media posts</b> &amp; <b><b>banners</b></b></b></div>
+            <div class="service-card"><b><b>3. Flyers, brochures</b> &amp; <b><b>print layout</b></b></b></div>
+            <div class="service-card"><b><b>4. Web graphics &amp; UI assets</b></b></div>
+            <div class="service-card"><b><b>5. Photo retouching &amp; color grading</b></b></div>
+            <div class="service-card"><b><b>6. Logo animation &amp; motion branding</b></b></div>
+        </div>
+    </div>
+</section>
+
+<!-- CSS -->
+<style>
+    .about-section{
+        padding:60px 20px;
+        background:#ffffff;
+        font-family:Arial, Helvetica, sans-serif;
+        text-align:center;
+    }
+
+    .main-title{
+        font-size:30px;
+        margin-bottom:4px;
+        font-weight:700;
+        letter-spacing:0.5px;
+    }
+    .sub-title{
+        font-size:20px;
+        margin-bottom:16px;
+        color:#444;
+    }
+    .intro{
+        font-size:15px;
+        line-height:1.6;
+        max-width:760px;
+        margin:0 auto 32px;
+        color:#333;
+    }
+
+    .services-grid{
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap:20px;
+        max-width:1000px;
+        margin:0 auto;
+    }
+    .service-card{
+        background:#f9f9fb;
+        padding:20px 16px;
+        border-radius:12px;
+        font-size:14px;
+        font-weight:500;
+        box-shadow:0 6px 14px rgba(0,0,0,0.05);
+        transition:all .3s ease;
+        cursor:pointer;
+    }
+
+    /* Hover shake animation */
+    .service-card:hover{
+        animation:shake 0.4s;
+        animation-iteration-count:1;
+        background:#fff;
+        box-shadow:0 10px 20px rgba(0,0,0,0.12);
+    }
+
+    @keyframes shake {
+        0% { transform: translateX(0); }
+        25% { transform: translateX(-4px); }
+        50% { transform: translateX(4px); }
+        75% { transform: translateX(-4px); }
+        100% { transform: translateX(0); }
+    }
+
+    /* Responsive */
+    @media(max-width:800px){
+        .services-grid{
+            grid-template-columns:1fr 1fr;
+        }
+    }
+    @media(max-width:500px){
+        .services-grid{
+            grid-template-columns:1fr;
+        }
+    }
+</style>
+
+
+
+
+<!-- OUR SERVICES SECTION -->
+<section id="services" class="services-section">
+    <div class="container">
+        <h2><b>OUR SERVICES</b></h2>
+        <p class="sub"><b><b>What I Do For Our Customer</b></b></p>
+
+        <div class="services-grid">
+            <div class="service-card">
+                <span class="star">★</span>
+                <h3><b><b>Graphic Design</b></b></h3>
+                <p>Logos, posters, banners, and creative layouts that strengthen your brand identity.</p>
+            </div>
+
+            <div class="service-card">
+                <span class="star">★</span>
+                <h3><b><b>Social Media</b></b></h3>
+                <p>Engaging posts and campaigns designed to connect with your audience effectively.</p>
+            </div>
+
+            <div class="service-card">
+                <span class="star">★</span>
+                <h3><b><b>Print & Motion</b></b></h3>
+                <p>Flyers, brochures, and animations that communicate your message with impact.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- STYLES -->
+<style>
+    .services-section{
+        padding:60px 20px;
+        background:#fff;
+        text-align:center;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    .services-section h2{
+        font-size:28px;
+        margin-bottom:4px;
+    }
+    .services-section .sub{
+        margin-bottom:32px;
+        color:#666;
+        font-size:15px;
+    }
+
+    .services-grid{
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap:24px;
+    }
+
+    .service-card{
+        background:#f9f9fb;
+        padding:28px 20px;
+        border-radius:14px;
+        transition:all .3s ease;
+        cursor:pointer;
+        box-shadow:0 6px 16px rgba(0,0,0,0.05);
+    }
+    .service-card .star{
+        font-size:28px;
+        color:#f7b500;
+        display:block;
+        margin-bottom:8px;
+    }
+    .service-card h3{
+        margin:8px 0;
+        font-size:18px;
+    }
+    .service-card p{
+        font-size:14px;
+        color:#444;
+        line-height:1.5;
+    }
+
+    /* Hover Effect */
+    .services-grid:hover .service-card{
+        opacity:0.4;
+        transform:scale(0.95);
+    }
+    .services-grid .service-card:hover{
+        opacity:1;
+        transform:scale(1.05);
+        box-shadow:0 12px 24px rgba(0,0,0,0.12);
+    }
+
+    /* Responsive */
+    @media(max-width:800px){
+        .services-grid{
+            grid-template-columns: 1fr;
+        }
+    }
+</style>
+
+
+
+
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><b>WORK</b></title>
+    <style>
+        body {font-family: Arial, sans-serif; margin:0; padding:0; background:#f4f4f4;}
+        h1 {text-align:center; color:orange; margin:20px 0;}
+        .tabs {display:flex; justify-content:center; gap:15px; margin-bottom:20px;}
+        .tabs button {
+            padding:10px 20px; border:none; cursor:pointer;
+            background:#333; color:#fff; border-radius:5px; transition:0.3s;
+        }
+        .tabs button.active {background:orange;}
+        .gallery {display:grid; grid-template-columns:repeat(3, 1fr); gap:15px; justify-items:center;}
+        .gallery img {
+            width:450px; height:250px; object-fit:cover; border-radius:8px;
+            cursor:pointer; transition: transform 0.3s ease;
+            opacity:0; transform:scale(0.8);
+            animation: zoomIn 0.6s forwards;
+        }
+        .gallery img:hover {transform:scale(1.05);}
+        @keyframes zoomIn {to {opacity:1; transform:scale(1);}}
+        .hidden {display:none;}
+        .load-more {display:block; margin:20px auto; padding:10px 20px;
+            background:orange; border:none; color:#fff; cursor:pointer; border-radius:5px;}
+        /* Modal */
+        .modal {display:none; position:fixed; top:0; left:0; width:100%; height:100%;
+            background:rgba(0,0,0,0.8); justify-content:center; align-items:center; animation: fadeIn 0.5s;}
+        @keyframes fadeIn {from {opacity:0;} to {opacity:1;}}
+        .modal-content {position:relative; background:#fff; padding:10px; border-radius:10px;}
+        .modal img {max-width:80vw; max-height:80vh;}
+        .next-btn {margin-top:10px; padding:8px 15px; background:orange; border:none; color:#fff; cursor:pointer; border-radius:5px;}
+    </style>
+</head>
+<body>
+
+    <h1><b><b><b>WORK</b></b></b></h1>
+
+    <!-- Tabs -->
+    <div class="tabs">
+        <button class="tab-btn active" data-tab="branding">Branding</button>
+        <button class="tab-btn" data-tab="cover">Cover Page</button>
+        <button class="tab-btn" data-tab="filecover">File Cover</button>
+        <button class="tab-btn" data-tab="card">Card</button>
+        <button class="tab-btn" data-tab="tshirt">T-Shirt</button>
+        <button class="tab-btn" data-tab="handbill">Hand Bill</button>
+        <button class="tab-btn" data-tab="social">Social Media Post</button>
+    </div>
+
+    <!-- Galleries -->
+    <div id="branding" class="gallery-tab">
+        <div class="gallery">
+            <img src="C:/Users/Danidu/Downloads/portfolio.html/Brand/Branding 01.jpg" alt="Branding 1" width="800" height="400">
+            <img src="C:/Users/Danidu/Downloads/portfolio.html/Brand/Branding 02.jpg" alt="Branding 2" width="800" height="400">
+            <img src="C:/Users/Danidu/Downloads/portfolio.html/Brand/Branding 03.jpg" alt="Branding 3" width="3543" height="1772">
+            <img src="../Downloads/portfolio.html/Brand/Branding 04.jpg" alt="Branding 4" width="3543" height="1772">
+            <img src="../Downloads/portfolio.html/Brand/Branding 05.jpg" alt="Branding 5" width="3543" height="1772">
+            <img src="C:\Users\Danidu\Downloads\portfolio.html\Brand\Branding  06.jpg" alt="Branding 6"
+            <img src="C:\Users\Danidu\Downloads\portfolio.html\Brand\Branding 07.jpg" alt="Branding 7" class="hidden">
+            <img src="C:\Users\Danidu\Downloads\portfolio.html\Brand\Branding 08.jpg" alt="Branding 8" class="hidden">
+            <img src="C:\Users\Danidu\Downloads\portfolio.html\Brand\Branding 09.jpg" alt="Branding 9" class="hidden">
+            <img src="C:\Users\Danidu\Downloads\portfolio.html\Brand\Branding 10.jpg" alt="Branding 10" class="hidden">
+        </div>
+        <button class="load-more">Load More</button>
+    </div>
+
+
+
+    <!-- Galleries -->
+        <div id="cover" class="gallery-tab">
+                <div class="gallery">
+                        <img src="../Downloads/portfolio.html/BOOK COVER/Book Cover 01.jpg" alt="Branding 1" width="1108" height="718">
+                        <img src="../Downloads/portfolio.html/BOOK COVER/Book Cover 02.jpg" alt="Branding 2" width="1108" height="718">
+                        <img src="../Downloads/portfolio.html/BOOK COVER/Book Cover 03.jpg" alt="Branding 3" width="1108" height="718">
+                        <img src="../Downloads/portfolio.html/BOOK COVER/Book Cover 04.jpg" alt="Branding 4" width="1108" height="718">
+                        <img src="../Downloads/portfolio.html/BOOK COVER/Book Cover 05.jpg" alt="Branding 5" width="1645" height="2048">
+                        <img src="C:\Users\Danidu\Downloads\portfolio.html\BOOK COVER\Book Cover 07.jpg" alt="Branding 6"
+                        <img src="C:\Users\Danidu\Downloads\portfolio.html\BOOK COVER\Book Cover 07.jpg" alt="Branding 7" class="hidden">
+                        <img src="C:\Users\Danidu\Downloads\portfolio.html\BOOK COVER\Book Cover 11.jpg" alt="Branding 8" class="hidden">
+                        <img src="C:\Users\Danidu\Downloads\portfolio.html\BOOK COVER\Book Cover 12.jpg" alt="Branding 9" class="hidden">
+                        <img src="C:\Users\Danidu\Downloads\portfolio.html\BOOK COVER\Book Cover 09.jpg" alt="Branding 10" class="hidden">
+                        <img src="C:\Users\Danidu\Downloads\portfolio.html\BOOK COVER\Book Cover 10.jpg" alt="Branding 10" class="hidden">
+                </div>
+                <button class="load-more">Load More</button>
+        </div>
+
+
+    <!-- Galleries -->
+        <div id="filecover" class="gallery-tab">
+                <div class="gallery">
+                        <img src="C:\Users\Danidu\Downloads\portfolio.html\FILE COVER\File Cover 01.jpeg"alt="Branding 1" width="720" height="499">
+                        <img src="C:\Users\Danidu\Downloads\portfolio.html\FILE COVER\File Cover 02.jpg" alt="Branding 2" width="1750" height="1215">
+                        <img src="C:\Users\Danidu\Downloads\portfolio.html\FILE COVER\File Cover 03.jpg" alt="Branding 3" width="1750" height="1215">
+                        <img src="C:\Users\Danidu\Downloads\portfolio.html\FILE COVER\File Cover 04.jpg" alt="Branding 4" width="1750" height="1215">
+                        <img src="Brand/Branding 05.jpg" alt="Branding 5">
+                        <img src="Brand/Branding 06.jpg" alt="Branding 6"
+                        <img src="Brand/Branding 07.jpg" alt="Branding 7" class="hidden">
+                        <img src="Brand/Branding 08.jpg" alt="Branding 8" class="hidden">
+                        <img src="Brand/Branding 09.jpg" alt="Branding 9" class="hidden">
+                        <img src="Brand/Branding 10.jpg" alt="Branding 10" class="hidden">
+                </div>
+                <button class="load-more">Load More</button>
+        </div>
+
+
+
+
+
+
+
+    <!-- Galleries -->
+        <div id="card" class="gallery-tab">
+                <div class="gallery">
+                        <img src= "C:\Users\Danidu\Downloads\portfolio.html\CARD\Card 01.jpg"alt="Branding 1" width="1000" height="1000">
+                        <img src="C:\Users\Danidu\Downloads\portfolio.html\CARD\Card 02.jpg" alt="Branding 2" width="2048" height="1622">
+                        <img src="C:\Users\Danidu\Downloads\portfolio.html\CARD\Card 03.jpg" alt="Branding 3" width="3508" height="2480">
+                        <img src="C:\Users\Danidu\Downloads\portfolio.html\CARD\Card 04.jpg" alt="Branding 4" width="3508" height="2480">
+                        <img src="C:\Users\Danidu\Downloads\portfolio.html\CARD\Card 06.jpg" alt="Branding 5" width="526" height="526">
+                        <img src="C:\Users\Danidu\Downloads\portfolio.html\CARD\Card 07.jpg" alt="Branding 6"
+                        <img src="C:\Users\Danidu\Downloads\portfolio.html\CARD\Card 08.jpg" alt="Branding 7" class="hidden">
+                        <img src="C:\Users\Danidu\Downloads\portfolio.html\CARD\Card 09.jpg" alt="Branding 8" class="hidden">
+                        <img src="C:\Users\Danidu\Downloads\portfolio.html\CARD\Card 08.jpg" alt="Branding 9" class="hidden">
+                        <img src="Brand/Branding 10.jpg" alt="Branding 10" class="hidden">
+                </div>
+                <button class="load-more">Load More</button>
+        </div>
+
+
+        <!-- Galleries -->
+        <div id="tshirt" class="gallery-tab">
+                <div class="gallery">
+                        <img src="C:\Users\Danidu\Downloads\portfolio.html\T-Shart\Copy of Copia de 35.jpg" alt="Branding 1">
+                        <img src="C:\Users\Danidu\Downloads\portfolio.html\T-Shart\Copy of Copia de 6(1).jpg" alt="Branding 2">
+                        <img src="C:\Users\Danidu\Downloads\portfolio.html\T-Shart\Copy of Copia de 5(2).jpg" alt="Branding 3">
+                        <img src="C:\Users\Danidu\Downloads\portfolio.html\T-Shart\Copy of Copia de 6(2).jpg" alt="Branding 4">
+                        <img src="Brand/Branding 05.jpg" alt="Branding 5">
+                        <img src="Brand/Branding 06.jpg" alt="Branding 6"
+                        <img src="Brand/Branding 07.jpg" alt="Branding 7" class="hidden">
+                        <img src="Brand/Branding 08.jpg" alt="Branding 8" class="hidden">
+                        <img src="Brand/Branding 09.jpg" alt="Branding 9" class="hidden">
+                        <img src="Brand/Branding 10.jpg" alt="Branding 10" class="hidden">
+                </div>
+                <button class="load-more">Load More</button>
+        </div>
+
+
+
+        <!-- Galleries -->
+        <div id="handbill" class="gallery-tab">
+                <div class="gallery">
+                        <img src="C:\Users\Danidu\Downloads\portfolio.html\HAND BILL\Hand Bill 01.jpg" alt="Branding 1">
+                         <img src="C:\Users\Danidu\Downloads\portfolio.html\HAND BILL\Hand Bill 02.jpg" alt="Branding 2">
+                          <img src="C:\Users\Danidu\Downloads\portfolio.html\HAND BILL\Hand Bill 03.jpg"alt="Branding 3">
+                           <img src="C:\Users\Danidu\Downloads\portfolio.html\HAND BILL\Hand Bill 04.jpg" alt="Branding 4">
+                            <img src="C:\Users\Danidu\Downloads\portfolio.html\HAND BILL\Hand Bill 05.jpg" alt="Branding 5">
+                             <img src="C:\Users\Danidu\Downloads\portfolio.html\HAND BILL\Hand Bill 06.jpg" alt="Branding 6"
+                           <img src="C:\Users\Danidu\Downloads\portfolio.html\HAND BILL\Hand Bill 07.jpg" alt="Branding 7" class="hidden">
+                          <img src="C:\Users\Danidu\Downloads\portfolio.html\HAND BILL\Hand Bill 08.jpg" alt="Branding 8" class="hidden">
+                         <img src="C:\Users\Danidu\Downloads\portfolio.html\HAND BILL\Hand Bill 09.jpg" alt="Branding 9" class="hidden">
+                        <img src="C:\Users\Danidu\Downloads\portfolio.html\HAND BILL\Hand Bill 10.jpg" alt="Branding 10" class="hidden">
+                         <img src=  "C:\Users\Danidu\Downloads\portfolio.html\HAND BILL\Hand Bill 11.jpg"alt="Branding 10" class="hidden">
+                          <img src="C:\Users\Danidu\Downloads\portfolio.html\HAND BILL\Hand Bill 12.jpg""C:\Users\Danidu\Downloads\portfolio.html\HAND BILL\Hand Bill 10.jpg" alt="Branding 10" class="hidden">
+                           <img src="C:\Users\Danidu\Downloads\portfolio.html\HAND BILL\Hand Bill 13.jpg" alt="Branding 10" class="hidden">
+                            <img src="C:\Users\Danidu\Downloads\portfolio.html\HAND BILL\Hand Bill 14.jpg" alt="Branding 10" class="hidden">
+                             <img src="C:\Users\Danidu\Downloads\portfolio.html\HAND BILL\Hand Bill 15.jpg" alt="Branding 10" class="hidden">
+                              <img src="C:\Users\Danidu\Downloads\portfolio.html\HAND BILL\Hand Bill 16.jpg" alt="Branding 10" class="hidden">
+                             <img src="C:\Users\Danidu\Downloads\portfolio.html\HAND BILL\Hand Bill 17.jpg" alt="Branding 10" class="hidden">
+                </div>
+                <button class="load-more">Load More</button>
+        </div>
+
+
+
+        <!-- Galleries -->
+        <div id="social" class="gallery-tab">
+                <div class="gallery">
+                        <img src="C:\Users\Danidu\Downloads\portfolio.html\Social Media Post\Social Media Post 01.jpg" alt="Branding 1">
+                        <img src="C:\Users\Danidu\Downloads\portfolio.html\Social Media Post\Social Media Post 02.jpg" alt="Branding 1">
+                        <img src="C:\Users\Danidu\Downloads\portfolio.html\Social Media Post\Social Media Post 03.jpg" alt="Branding 1">
+                        <img src="C:\Users\Danidu\Downloads\portfolio.html\Social Media Post\Social Media Post 04.jpg" alt="Branding 1">
+                        <img src="C:\Users\Danidu\Downloads\portfolio.html\Social Media Post\Social Media Post 05.jpg" alt="Branding 1">
+                        <img src="C:\Users\Danidu\Downloads\portfolio.html\Social Media Post\Social Media Post 06.jpg" alt="Branding 1">
+                            <img src= "C:\Users\Danidu\Downloads\portfolio.html\Social Media Post\Social Media Post 07.jpg" alt="Branding 7" class="hidden">
+                                <img src= "C:\Users\Danidu\Downloads\portfolio.html\Social Media Post\Social Media Post 08.jpg" alt="Branding 7" class="hidden">
+                                    <img src= "C:\Users\Danidu\Downloads\portfolio.html\Social Media Post\Social Media Post 09.jpg" alt="Branding 7" class="hidden">
+                                        <img src= "C:\Users\Danidu\Downloads\portfolio.html\Social Media Post\Social Media Post 06.jpg" alt="Branding 7" class="hidden">
+
+                </div>
+                <button class="load-more">Load More</button>
+        </div>
+
+
+
+
+
+
+
+
+ <!-- Same structure for Cover, FileCover, Card, TShirt, HandBill, Social -->
+    <!-- ... (repeat with images) ... -->
+
+    <!-- Modal -->
+    <div class="modal" id="imageModal">
+        <div class="modal-content">
+            <img id="modalImage" src="" alt="">
+            <button class="next-btn" id="nextBtn">Next</button>
+        </div>
+    </div>
+
+<script>
+    // Tabs
+    const tabBtns = document.querySelectorAll('.tab-btn');
+    const tabContents = document.querySelectorAll('.gallery-tab');
+    tabBtns.forEach(btn=>{
+        btn.addEventListener('click', ()=>{
+            tabBtns.forEach(b=>b.classList.remove('active'));
+            btn.classList.add('active');
+            tabContents.forEach(c=>c.style.display="none");
+            document.getElementById(btn.dataset.tab).style.display="block";
+        });
+    });
+    document.querySelectorAll('.gallery-tab').forEach((c,i)=>{ if(i!==0) c.style.display="none"; });
+
+    // Load More
+    document.querySelectorAll('.load-more').forEach(btn=>{
+        btn.addEventListener('click', ()=>{
+            btn.previousElementSibling.querySelectorAll('.hidden').forEach(img=>img.classList.remove('hidden'));
+            btn.style.display="none";
+        });
+    });
+
+    // Modal
+    const modal=document.getElementById('imageModal');
+    const modalImg=document.getElementById('modalImage');
+    let currentImages=[], currentIndex=0;
+    document.querySelectorAll('.gallery img').forEach(img=>{
+        img.addEventListener('click',()=>{
+            modal.style.display='flex';
+            modalImg.src=img.src;
+            currentImages=[...img.parentElement.querySelectorAll('img')];
+            currentIndex=currentImages.indexOf(img);
+        });
+    });
+    document.getElementById('nextBtn').addEventListener('click',()=>{
+        currentIndex=(currentIndex+1)%currentImages.length;
+        modalImg.src=currentImages[currentIndex].src;
+        // WhatsApp send
+        window.open(`https://wa.me/94767015586?text=Hello,%20I'm%20interested%20in%20${encodeURIComponent(modalImg.alt)}`);
+    });
+    modal.addEventListener('click',(e)=>{if(e.target===modal) modal.style.display='none';});
+</script>
+</body>
+</html>
+
+ </section>
+
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-info">
+            <p>Email: <a href="himashdanidu@gmail.com">himashdanidu@gmail.com </a></p>
+            <p>Phone: <a href="tel:+94 76 701 5586 ">+94 76 701 5586 </a></p>
+            <p>Location: Walasmulla, Sri Lanka</p>
+            <p>Tik Tok: D_a_n_i_d_u</p>
+            <p>Facebook: Danidu Himash</p>
+        </div>
+    </section>
+
+
+
+
+<!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Sobaa Graphic Design. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
